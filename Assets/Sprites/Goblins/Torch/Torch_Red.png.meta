@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: c4f09f8724dae2d428511e86befc91b1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Torch_Red_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 827
+        width: 74
+        height: 79
+      alignment: 9
+      pivot: {x: 0.57883525, y: 0.48523104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7082a404f4214d448bb9d8991e8709cf
+      internalID: 1332263917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 827
+        width: 75
+        height: 82
+      alignment: 9
+      pivot: {x: 0.59334064, y: 0.4822142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a40e3ceb3baac448061113c3ce4a30
+      internalID: 1337301727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 827
+        width: 74
+        height: 83
+      alignment: 9
+      pivot: {x: 0.6261362, y: 0.45782837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a57f870e92c5241877ada5904984c6
+      internalID: 1899530709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 827
+        width: 72
+        height: 84
+      alignment: 9
+      pivot: {x: 0.59722984, y: 0.44791302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d8b708f49a221408cbb78134fd971d
+      internalID: -853243789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_7
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 827
+        width: 71
+        height: 86
+      alignment: 9
+      pivot: {x: 0.60270756, y: 0.44234094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a238ed8e8641a72469c0c899bdf1c2b2
+      internalID: 1886884767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_9
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 827
+        width: 71
+        height: 88
+      alignment: 9
+      pivot: {x: 0.6068167, y: 0.43702212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048471fa166f33b46b86b05559f5bbef
+      internalID: -1720001590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_10
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 827
+        width: 71
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5739488, y: 0.4442845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2161303334335504d9870ecccbfdadad
+      internalID: -2110005932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 635
+        width: 108
+        height: 73
+      alignment: 9
+      pivot: {x: 0.7160666, y: 0.5799151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eda1516d5ffce42a0cdd7f39e9d07f
+      internalID: 1785130734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 635
+        width: 99
+        height: 76
+      alignment: 9
+      pivot: {x: 0.70329916, y: 0.54989463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250a300fc4fb3745aceeab8cd42cd3e
+      internalID: -151475019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_16
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 635
+        width: 105
+        height: 73
+      alignment: 9
+      pivot: {x: 0.7166838, y: 0.50399655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea2964cdc9f13643867fa35ef4cb8b8
+      internalID: -1787841896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 635
+        width: 111
+        height: 73
+      alignment: 9
+      pivot: {x: 0.70234364, y: 0.5879074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fafdd2274bfff54f9178ab9226a2574
+      internalID: 765425882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_20
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 635
+        width: 100
+        height: 76
+      alignment: 9
+      pivot: {x: 0.69251525, y: 0.5422187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57955cf8e43800848ba107d648fa451c
+      internalID: -2125163893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 635
+        width: 105
+        height: 73
+      alignment: 9
+      pivot: {x: 0.7250174, y: 0.50399655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2914bd8b68ede45937ce8c21f96711
+      internalID: -1529122658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_23
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 443
+        width: 90
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5939891, y: 0.41704258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f503ae2cbf807c428ced035977cd94c
+      internalID: 1984051071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 443
+        width: 80
+        height: 96
+      alignment: 9
+      pivot: {x: 0.616676, y: 0.45442358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a40cf19d506c8f4982bfdcb91b0f24d
+      internalID: -1566684420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_29
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 443
+        width: 86
+        height: 102
+      alignment: 9
+      pivot: {x: 0.58818513, y: 0.43708682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c9a2e65b19734488738c977db3ac40
+      internalID: -1846402558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 442
+        width: 137
+        height: 106
+      alignment: 9
+      pivot: {x: 0.50851643, y: 0.34589976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af442464550fc0448a67af2f99256a9
+      internalID: -743621845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_38
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 441
+        width: 135
+        height: 107
+      alignment: 9
+      pivot: {x: 0.50864255, y: 0.36097047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5902c0734f83e499267fab9162a2da
+      internalID: 2140178079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torch_Red_39
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 443
+        width: 123
+        height: 108
+      alignment: 9
+      pivot: {x: 0.47154272, y: 0.33524945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bd9562f04854f41a1e943640dfa9f5
+      internalID: -227362671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Torch_Red_0: 1332263917
+      Torch_Red_1: 1337301727
+      Torch_Red_10: -2110005932
+      Torch_Red_11: -1320601198
+      Torch_Red_12: 1785130734
+      Torch_Red_13: 143306
+      Torch_Red_14: -151475019
+      Torch_Red_15: 850632680
+      Torch_Red_16: -1787841896
+      Torch_Red_17: -1321788267
+      Torch_Red_18: 765425882
+      Torch_Red_19: 1465272222
+      Torch_Red_2: 1899530709
+      Torch_Red_20: -2125163893
+      Torch_Red_21: 155904604
+      Torch_Red_22: -1529122658
+      Torch_Red_23: 1984051071
+      Torch_Red_24: -945156868
+      Torch_Red_25: 1227859644
+      Torch_Red_26: 1937584351
+      Torch_Red_27: -1566684420
+      Torch_Red_28: 1214635752
+      Torch_Red_29: -1846402558
+      Torch_Red_3: 835242673
+      Torch_Red_30: 617136883
+      Torch_Red_31: -743621845
+      Torch_Red_32: 1239087861
+      Torch_Red_33: 566420173
+      Torch_Red_34: -486502346
+      Torch_Red_35: 998458268
+      Torch_Red_36: 2013744051
+      Torch_Red_37: -1675476318
+      Torch_Red_38: 2140178079
+      Torch_Red_39: -227362671
+      Torch_Red_4: -853243789
+      Torch_Red_40: 1173997566
+      Torch_Red_41: -1629371563
+      Torch_Red_42: -1253563650
+      Torch_Red_43: -1173511682
+      Torch_Red_44: 238457860
+      Torch_Red_45: 587881752
+      Torch_Red_46: 1560906542
+      Torch_Red_47: -2065434991
+      Torch_Red_48: 930098235
+      Torch_Red_49: 846048460
+      Torch_Red_5: 1583151072
+      Torch_Red_50: 901723705
+      Torch_Red_51: 180502288
+      Torch_Red_52: -1526066174
+      Torch_Red_53: 1829477262
+      Torch_Red_54: -485184149
+      Torch_Red_55: 1914346409
+      Torch_Red_56: -398472686
+      Torch_Red_57: -1223040083
+      Torch_Red_58: 246833626
+      Torch_Red_59: -572433348
+      Torch_Red_6: -2145413647
+      Torch_Red_60: 1364497066
+      Torch_Red_61: -25424468
+      Torch_Red_62: -160518071
+      Torch_Red_63: 1870150127
+      Torch_Red_64: 126390316
+      Torch_Red_65: 350482871
+      Torch_Red_66: -1201559214
+      Torch_Red_67: 1954432966
+      Torch_Red_68: 1134867438
+      Torch_Red_69: 1055804102
+      Torch_Red_7: 1886884767
+      Torch_Red_70: 1308796453
+      Torch_Red_71: -642986296
+      Torch_Red_72: -681379297
+      Torch_Red_73: 1863415398
+      Torch_Red_74: -1551965877
+      Torch_Red_8: -1351581587
+      Torch_Red_9: -1720001590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
