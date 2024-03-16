@@ -48,6 +48,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        //life bugfix
+        if(currentHealth >maxHealth){
+            currentHealth = maxHealth;
+        }
         if(isDashing){
             return;
         }
