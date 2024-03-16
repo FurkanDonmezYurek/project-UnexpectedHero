@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,7 @@ public class Player : MonoBehaviour
     public Slider healthSlider;
     public float maxHealth;
     public float currentHealth;
+    public GameObject gameOverScreen;
 
     public float damageCD;
     public bool canDamage;
@@ -40,7 +42,7 @@ public class Player : MonoBehaviour
 
         //LifeBar start full
         currentHealth = maxHealth;
-        // UpdateLifeBar();
+        UpdateLifeBar();
         canDamage = true;
     }
 
@@ -61,11 +63,11 @@ public class Player : MonoBehaviour
                 damageTime = 0;
             }
         }
-        // UpdateLifeBar();
+        UpdateLifeBar();
         //Dead
         if(currentHealth <= 0){
             animator.SetBool("IsDead",true);
-            Invoke("ReloadScene",2f);
+            Invoke("GameOver",2f);
         }
 
         ctrlObj.DoubleJump(jump, jumpCount);
@@ -101,7 +103,7 @@ public class Player : MonoBehaviour
         {
             currentHealth -= damage;
             animator.SetTrigger("TakeDamage");
-            // UpdateLifeBar();
+            UpdateLifeBar();
             damageCD = Time.time + 0.5f;
             canDamage = false;
         }
@@ -117,10 +119,10 @@ public class Player : MonoBehaviour
     }
 
     //Update LifeBar
-    // private void UpdateLifeBar()
-    // {
-    //     healthSlider.value = currentHealth / maxHealth;
-    // }
+    private void UpdateLifeBar()
+    {
+        healthSlider.value = currentHealth / maxHealth;
+    }
 
     private IEnumerator Dash(){
         int originalLayer = this.gameObject.layer;
@@ -144,5 +146,8 @@ public class Player : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
+    }
+    void GameOver(){
+        gameOverScreen.SetActive(true);
     }
 }
