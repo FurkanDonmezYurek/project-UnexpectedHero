@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc7b3a69268d37547bf51cd09d7db280
+guid: ce0064876c8641742a23fcfcff6e8e9a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,133 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Dynamite_0
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 11
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91e65eb619f42474f9cbebe853974b2a
-      internalID: -406843990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dynamite_1
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 11
-        width: 27
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a487c53d00641c0419d161882b4f016c
-      internalID: 472740349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dynamite_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 11
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abbcfe42a711d4c48bb8d7125379a87b
-      internalID: 1839165605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dynamite_3
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 11
-        width: 25
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc80ffd74f44e914382fa67cf1358ca4
-      internalID: -1976926419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dynamite_4
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 11
-        width: 27
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acce5223aad7bf445a619655ddc53245
-      internalID: 1535062740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dynamite_5
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 11
-        width: 28
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87355c6e6c212c94a8c55330c8b5ab1a
-      internalID: 425015504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -271,13 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Dynamite_0: -406843990
-      Dynamite_1: 472740349
-      Dynamite_2: 1839165605
-      Dynamite_3: -1976926419
-      Dynamite_4: 1535062740
-      Dynamite_5: 425015504
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

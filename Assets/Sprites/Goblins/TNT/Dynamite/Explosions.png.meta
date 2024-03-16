@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cc7b3a69268d37547bf51cd09d7db280
+guid: 59aecce4f66d21041878aa4133918524
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dynamite_0
+      name: Explosions_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 11
-        width: 27
-        height: 51
+        x: 0
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91e65eb619f42474f9cbebe853974b2a
-      internalID: -406843990
+      spriteID: 2eccf17612177ba4ea04e9aee7515de5
+      internalID: 1143040771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dynamite_1
+      name: Explosions_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 11
-        width: 27
-        height: 52
+        x: 192
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a487c53d00641c0419d161882b4f016c
-      internalID: 472740349
+      spriteID: c823b289388216344a53a7219efb8013
+      internalID: -1702511966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dynamite_2
+      name: Explosions_2
       rect:
         serializedVersion: 2
-        x: 148
-        y: 11
-        width: 26
-        height: 51
+        x: 384
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abbcfe42a711d4c48bb8d7125379a87b
-      internalID: 1839165605
+      spriteID: 07c7023c1fb855e47b05ed8610a14ec0
+      internalID: -1573635789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dynamite_3
+      name: Explosions_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 11
-        width: 25
-        height: 50
+        x: 576
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc80ffd74f44e914382fa67cf1358ca4
-      internalID: -1976926419
+      spriteID: 4091ebfba443da146a24091da905dc27
+      internalID: 1531403610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dynamite_4
+      name: Explosions_4
       rect:
         serializedVersion: 2
-        x: 276
-        y: 11
-        width: 27
-        height: 51
+        x: 768
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acce5223aad7bf445a619655ddc53245
-      internalID: 1535062740
+      spriteID: 90b283e00046af64baacff4fe6e178c5
+      internalID: -1843040516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dynamite_5
+      name: Explosions_5
       rect:
         serializedVersion: 2
-        x: 340
-        y: 11
-        width: 28
-        height: 51
+        x: 960
+        y: 0
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,8 +255,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87355c6e6c212c94a8c55330c8b5ab1a
-      internalID: 425015504
+      spriteID: 08ee16e5b98334548b6996716719f1bf
+      internalID: 1875238861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosions_6
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231360634e100f743b28574055b2bcf7
+      internalID: -498150604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosions_7
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45045a661934e5246b72c9df952f54ee
+      internalID: -1538268062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosions_8
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8602bc1599bd7bf45bfc3a0afff7288a
+      internalID: 561575543
       vertices: []
       indices: 
       edges: []
@@ -272,12 +335,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dynamite_0: -406843990
-      Dynamite_1: 472740349
-      Dynamite_2: 1839165605
-      Dynamite_3: -1976926419
-      Dynamite_4: 1535062740
-      Dynamite_5: 425015504
+      Explosions_0: 1143040771
+      Explosions_1: -1702511966
+      Explosions_2: -1573635789
+      Explosions_3: 1531403610
+      Explosions_4: -1843040516
+      Explosions_5: 1875238861
+      Explosions_6: -498150604
+      Explosions_7: -1538268062
+      Explosions_8: 561575543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

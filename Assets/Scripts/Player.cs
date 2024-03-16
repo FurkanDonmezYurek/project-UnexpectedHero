@@ -48,12 +48,9 @@ public class Player : MonoBehaviour
         }
         // UpdateLifeBar();
         //Dead
-
-        //sahneyi yenileme
-        if (Input.GetKeyDown(KeyCode.Escape) || currentHealth <= 0)
-        {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+        if(currentHealth <= 0){
+            animator.SetBool("IsDead",true);
+            Invoke("ReloadScene",2f);
         }
 
         ctrlObj.DoubleJump(jump, jumpCount);
@@ -71,15 +68,12 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
-        if (PlayerPrefs.GetInt("isMobile") == 1)
-        {
-            ctrlObj.HorizontalControlsMobile(speed, moveInput);
-        }
-        else
-        {
+       if(animator.GetBool("IsDead")==false)
+       {
             moveInput = Input.GetAxisRaw("Horizontal");
             ctrlObj.HorizontalControls(speed);
         }
+        
     }
 
     //hasar alınca canı azalması ve animasyon aktivasyonu
@@ -94,7 +88,10 @@ public class Player : MonoBehaviour
             canDamage = false;
         }
     }
-
+    void ReloadScene(){
+        Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+    }
     //Reset Forces
     public void ResetAllForces()
     {
@@ -107,24 +104,5 @@ public class Player : MonoBehaviour
     //     healthSlider.value = currentHealth / maxHealth;
     // }
 
-    /// //////////////////////////////////////mobile
-    public void Left()
-    {
-        moveInput = -1;
-    }
-
-    public void Right()
-    {
-        moveInput = 1;
-    }
-
-    public void Stop()
-    {
-        moveInput = 0;
-    }
-
-    public void Jump()
-    {
-        ctrlObj.DoubleJumpMobile(jump, jumpCount);
-    }
+  
 }
