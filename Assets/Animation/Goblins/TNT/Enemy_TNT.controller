@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  attackRange: 10
+  attackRange: 7
 --- !u!1101 &3842984159075464090
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

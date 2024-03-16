@@ -23,11 +23,20 @@ public class Player : MonoBehaviour
     public bool canDamage;
     float damageTime;
 
+    //Dash
+    private bool canDash = true;
+    private bool isDashing;
+    public float dashingPower;
+    public float dashingTime;
+    public float dashingCooldown;
+    private TrailRenderer tr;
+
     void Start()
     {
         animator = this.gameObject.GetComponent<Animator>();
         ctrlObj = this.gameObject.GetComponent<Class_ControlObject>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+        tr = this.gameObject.GetComponent<TrailRenderer>();
 
         //LifeBar start full
         currentHealth = maxHealth;
@@ -37,6 +46,12 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if(isDashing){
+            return;
+        }
+        if(Input.GetKeyDown(KeyCode.LeftShift)&&canDash&&canDamage){
+            StartCoroutine(Dash());
+        }
         if (canDamage == false)
         {
             damageTime = Time.time;
@@ -67,6 +82,9 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(isDashing){
+            return;
+        }
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
        if(animator.GetBool("IsDead")==false)
        {
@@ -104,5 +122,27 @@ public class Player : MonoBehaviour
     //     healthSlider.value = currentHealth / maxHealth;
     // }
 
-  
+    private IEnumerator Dash(){
+        int originalLayer = this.gameObject.layer;
+        this.gameObject.layer = 8;
+        float originalSpeed = speed;
+        speed =0;
+        canDamage =false;
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0;
+        ctrlObj.Dash(dashingPower);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        this.gameObject.layer =originalLayer;
+        ResetAllForces();
+        speed = originalSpeed;
+        canDamage = true;
+        tr.emitting = false;
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
+    }
 }

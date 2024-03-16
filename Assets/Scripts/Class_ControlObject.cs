@@ -118,4 +118,9 @@ public class Class_ControlObject : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
     }
+
+    //Dash
+    public void Dash(float dashPower){
+        rb.velocity = new Vector2( Input.GetAxis("Horizontal")*dashPower,0f);
+    }
 }
