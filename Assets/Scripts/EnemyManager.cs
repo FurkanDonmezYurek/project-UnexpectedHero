@@ -21,6 +21,8 @@ public class EnemyManager : MonoBehaviour
     {
         //player ile arasındaki mesafenin float değeri
         // range = this.gameObject.transform.position.x - Player.transform.position.x;
+        if(Player.GetComponent<Animator>().GetBool("IsDead")==false)
+        {
         range = Vector3.Distance(this.gameObject.transform.position, Player.transform.position);
         if (Mathf.Approximately(rb.velocity.y, 0f))
         {
@@ -34,6 +36,11 @@ public class EnemyManager : MonoBehaviour
                 animator.SetBool("TriggerPlayer", false);
             }
         }
+            
+        }else
+            {
+                animator.SetBool("TriggerPlayer",false);
+            }
     }
 
     //Reset Forces
