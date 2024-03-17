@@ -217,7 +217,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 7
   m_Sprite: {fileID: 1754726624, guid: fe08851982a1a1f4ca9ab862f5d28f94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -310,8 +310,6 @@ MonoBehaviour:
   health: 5
   pushForce: 15
   deadTime: 2
-  gameOverScreen: {fileID: 0}
-  inGameScreen: {fileID: 0}
 --- !u!114 &7163699716353786448
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealthSystem : MonoBehaviour
 {
@@ -13,9 +14,7 @@ public class EnemyHealthSystem : MonoBehaviour
     public float deadTime;
     bool deadStarted;
 
-    //Game Over Screen
-    public GameObject gameOverScreen;
-    public GameObject inGameScreen;
+    
 
     void Start()
     {
@@ -65,8 +64,7 @@ public class EnemyHealthSystem : MonoBehaviour
         yield return new WaitForSeconds(seconds);
         if (this.gameObject.tag == "Boss")
         {
-            gameOverScreen.SetActive(true);
-            inGameScreen.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
