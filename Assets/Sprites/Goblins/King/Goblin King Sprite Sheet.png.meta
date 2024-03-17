@@ -139,10 +139,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 640
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_1
       rect:
         serializedVersion: 2
-        x: 79
+        x: 64
         y: 640
-        width: 34
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_2
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 640
-        width: 34
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_3
       rect:
         serializedVersion: 2
-        x: 206
+        x: 192
         y: 640
-        width: 35
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_4
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 576
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_5
       rect:
         serializedVersion: 2
-        x: 79
+        x: 64
         y: 576
-        width: 34
-        height: 44
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_6
       rect:
         serializedVersion: 2
-        x: 145
+        x: 128
         y: 576
-        width: 30
-        height: 45
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_7
       rect:
         serializedVersion: 2
-        x: 206
+        x: 192
         y: 576
-        width: 32
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_8
       rect:
         serializedVersion: 2
-        x: 271
+        x: 256
         y: 576
-        width: 33
-        height: 44
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_9
       rect:
         serializedVersion: 2
-        x: 335
+        x: 320
         y: 576
-        width: 34
-        height: 45
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_10
       rect:
         serializedVersion: 2
-        x: 15
+        x: 0
         y: 512
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_11
       rect:
         serializedVersion: 2
-        x: 79
+        x: 64
         y: 512
-        width: 34
-        height: 38
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_12
       rect:
         serializedVersion: 2
-        x: 143
+        x: 128
         y: 512
-        width: 34
-        height: 38
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_13
       rect:
         serializedVersion: 2
-        x: 206
-        y: 516
-        width: 35
-        height: 46
+        x: 192
+        y: 512
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_14
       rect:
         serializedVersion: 2
-        x: 269
-        y: 522
-        width: 36
-        height: 42
+        x: 256
+        y: 512
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_15
       rect:
         serializedVersion: 2
-        x: 334
-        y: 523
-        width: 35
-        height: 42
+        x: 320
+        y: 512
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_17
       rect:
         serializedVersion: 2
-        x: 399
+        x: 448
         y: 512
-        width: 34
-        height: 45
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_18
       rect:
         serializedVersion: 2
-        x: 463
-        y: 512
-        width: 34
-        height: 37
+        x: 0
+        y: 448
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -517,10 +517,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_19
       rect:
         serializedVersion: 2
-        x: 15
+        x: 64
         y: 448
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_20
       rect:
         serializedVersion: 2
-        x: 80
+        x: 128
         y: 448
-        width: 31
-        height: 39
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_21
       rect:
         serializedVersion: 2
-        x: 143
+        x: 192
         y: 448
-        width: 31
-        height: 39
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_22
       rect:
         serializedVersion: 2
-        x: 208
+        x: 256
         y: 448
-        width: 33
-        height: 39
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_23
       rect:
         serializedVersion: 2
-        x: 271
+        x: 320
         y: 448
-        width: 38
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_24
       rect:
         serializedVersion: 2
-        x: 335
+        x: 384
         y: 448
-        width: 38
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_26
       rect:
         serializedVersion: 2
-        x: 399
+        x: 512
         y: 448
-        width: 38
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -664,10 +664,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_28
       rect:
         serializedVersion: 2
-        x: 463
+        x: 640
         y: 448
-        width: 38
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_30
       rect:
         serializedVersion: 2
-        x: 527
-        y: 448
-        width: 38
-        height: 41
+        x: 0
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_31
       rect:
         serializedVersion: 2
-        x: 591
-        y: 448
-        width: 38
-        height: 41
+        x: 64
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_32
       rect:
         serializedVersion: 2
-        x: 655
-        y: 448
-        width: 38
-        height: 41
+        x: 128
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,10 +748,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_33
       rect:
         serializedVersion: 2
-        x: 719
-        y: 448
-        width: 38
-        height: 41
+        x: 192
+        y: 384
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_34
       rect:
         serializedVersion: 2
-        x: 15
+        x: 256
         y: 384
-        width: 38
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_35
       rect:
         serializedVersion: 2
-        x: 77
+        x: 320
         y: 384
-        width: 37
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_36
       rect:
         serializedVersion: 2
-        x: 140
+        x: 384
         y: 384
-        width: 34
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_37
       rect:
         serializedVersion: 2
-        x: 209
+        x: 448
         y: 384
-        width: 38
-        height: 39
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +853,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_38
       rect:
         serializedVersion: 2
-        x: 273
-        y: 384
-        width: 37
-        height: 37
+        x: 0
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,10 +874,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_39
       rect:
         serializedVersion: 2
-        x: 335
-        y: 384
-        width: 34
-        height: 39
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,10 +895,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_40
       rect:
         serializedVersion: 2
-        x: 399
-        y: 384
-        width: 34
-        height: 41
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,10 +916,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_41
       rect:
         serializedVersion: 2
-        x: 463
-        y: 384
-        width: 34
-        height: 41
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,10 +937,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_42
       rect:
         serializedVersion: 2
-        x: 15
+        x: 256
         y: 320
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -958,10 +958,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_43
       rect:
         serializedVersion: 2
-        x: 79
+        x: 320
         y: 320
-        width: 34
-        height: 42
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -979,10 +979,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_44
       rect:
         serializedVersion: 2
-        x: 143
-        y: 322
-        width: 35
-        height: 39
+        x: 384
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1000,10 +1000,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_45
       rect:
         serializedVersion: 2
-        x: 207
+        x: 448
         y: 320
-        width: 34
-        height: 34
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,10 +1021,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_46
       rect:
         serializedVersion: 2
-        x: 271
+        x: 512
         y: 320
-        width: 34
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_47
       rect:
         serializedVersion: 2
-        x: 335
+        x: 576
         y: 320
-        width: 34
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,10 +1063,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_48
       rect:
         serializedVersion: 2
-        x: 399
+        x: 640
         y: 320
-        width: 34
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_49
       rect:
         serializedVersion: 2
-        x: 463
+        x: 704
         y: 320
-        width: 35
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1105,10 +1105,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_50
       rect:
         serializedVersion: 2
-        x: 527
+        x: 768
         y: 320
-        width: 41
-        height: 36
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1126,10 +1126,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_51
       rect:
         serializedVersion: 2
-        x: 591
+        x: 832
         y: 320
-        width: 34
-        height: 37
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1147,10 +1147,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_52
       rect:
         serializedVersion: 2
-        x: 655
+        x: 896
         y: 320
-        width: 34
-        height: 39
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1168,10 +1168,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_53
       rect:
         serializedVersion: 2
-        x: 719
+        x: 960
         y: 320
-        width: 34
-        height: 30
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1189,10 +1189,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_54
       rect:
         serializedVersion: 2
-        x: 783
-        y: 320
-        width: 34
-        height: 35
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,10 +1210,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_55
       rect:
         serializedVersion: 2
-        x: 847
-        y: 320
-        width: 45
-        height: 39
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1231,10 +1231,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_57
       rect:
         serializedVersion: 2
-        x: 911
-        y: 320
-        width: 46
-        height: 42
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1252,10 +1252,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_59
       rect:
         serializedVersion: 2
-        x: 975
-        y: 320
-        width: 34
-        height: 41
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1273,10 +1273,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_60
       rect:
         serializedVersion: 2
-        x: 15
-        y: 256
-        width: 34
-        height: 41
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1294,10 +1294,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_61
       rect:
         serializedVersion: 2
-        x: 79
-        y: 256
-        width: 34
-        height: 39
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1315,10 +1315,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_62
       rect:
         serializedVersion: 2
-        x: 142
-        y: 256
-        width: 35
-        height: 38
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1336,10 +1336,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_63
       rect:
         serializedVersion: 2
-        x: 207
-        y: 256
-        width: 34
-        height: 39
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1357,10 +1357,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_64
       rect:
         serializedVersion: 2
-        x: 15
+        x: 384
         y: 192
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1378,10 +1378,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_65
       rect:
         serializedVersion: 2
-        x: 79
+        x: 448
         y: 192
-        width: 34
-        height: 41
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1399,10 +1399,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_66
       rect:
         serializedVersion: 2
-        x: 143
-        y: 194
-        width: 35
-        height: 38
+        x: 512
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1420,10 +1420,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_67
       rect:
         serializedVersion: 2
-        x: 207
+        x: 576
         y: 192
-        width: 34
-        height: 34
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1441,10 +1441,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_68
       rect:
         serializedVersion: 2
-        x: 271
+        x: 640
         y: 192
-        width: 34
-        height: 35
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1462,10 +1462,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_69
       rect:
         serializedVersion: 2
-        x: 334
-        y: 192
-        width: 35
-        height: 35
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1483,10 +1483,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_70
       rect:
         serializedVersion: 2
-        x: 398
-        y: 192
-        width: 35
-        height: 25
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1504,10 +1504,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_71
       rect:
         serializedVersion: 2
-        x: 461
-        y: 192
-        width: 36
-        height: 20
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1525,10 +1525,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_72
       rect:
         serializedVersion: 2
-        x: 525
-        y: 192
-        width: 36
-        height: 17
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1546,10 +1546,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_73
       rect:
         serializedVersion: 2
-        x: 589
-        y: 192
-        width: 36
-        height: 17
+        x: 256
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1567,10 +1567,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_74
       rect:
         serializedVersion: 2
-        x: 653
-        y: 192
-        width: 36
-        height: 17
+        x: 320
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1588,10 +1588,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_75
       rect:
         serializedVersion: 2
-        x: 15
-        y: 128
-        width: 34
-        height: 41
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,10 +1609,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_76
       rect:
         serializedVersion: 2
-        x: 79
-        y: 128
-        width: 35
-        height: 41
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1630,10 +1630,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_77
       rect:
         serializedVersion: 2
-        x: 143
-        y: 128
-        width: 35
-        height: 42
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1651,10 +1651,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_78
       rect:
         serializedVersion: 2
-        x: 207
-        y: 128
-        width: 35
-        height: 41
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1672,10 +1672,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_79
       rect:
         serializedVersion: 2
-        x: 271
-        y: 128
-        width: 35
-        height: 42
+        x: 256
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1693,10 +1693,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_80
       rect:
         serializedVersion: 2
-        x: 335
-        y: 79
-        width: 35
-        height: 49
+        x: 320
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1714,10 +1714,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_81
       rect:
         serializedVersion: 2
-        x: 15
-        y: 25
-        width: 34
-        height: 39
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1735,10 +1735,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_82
       rect:
         serializedVersion: 2
-        x: 79
-        y: 64
-        width: 34
-        height: 35
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1756,10 +1756,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_83
       rect:
         serializedVersion: 2
-        x: 143
-        y: 64
-        width: 34
-        height: 34
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1777,10 +1777,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_84
       rect:
         serializedVersion: 2
-        x: 204
-        y: 64
-        width: 36
-        height: 28
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1798,10 +1798,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_85
       rect:
         serializedVersion: 2
-        x: 277
-        y: 64
-        width: 22
-        height: 59
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1819,10 +1819,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_86
       rect:
         serializedVersion: 2
-        x: 79
-        y: 15
-        width: 34
-        height: 39
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1840,10 +1840,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_87
       rect:
         serializedVersion: 2
-        x: 141
+        x: 384
         y: 0
-        width: 36
-        height: 28
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1858,97 +1858,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Goblin King Sprite Sheet_88
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 38
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db0cf7f5313622b4aa55ac52d724241c
-      internalID: 1144611957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin King Sprite Sheet_89
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 0
-        width: 36
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbb40635c535efb43b08cb1b23217058
-      internalID: -1710403528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin King Sprite Sheet_90
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 0
-        width: 34
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8070c245fa8e3a744814b65f1e96f44a
-      internalID: -768440334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Goblin King Sprite Sheet_91
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 0
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2d962ac030fae040b97669037b61fb9
-      internalID: -1104795340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Goblin King Sprite Sheet_56
       rect:
         serializedVersion: 2
-        x: 335
-        y: 128
-        width: 35
-        height: 41
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1966,10 +1882,10 @@ TextureImporter:
       name: Goblin King Sprite Sheet_58
       rect:
         serializedVersion: 2
-        x: 15
-        y: 64
-        width: 34
-        height: 38
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1987,6 +1903,90 @@ TextureImporter:
       name: Goblin King Sprite Sheet_16
       rect:
         serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c246bc6f18e7324e84cbf8c57c7adfc
+      internalID: -401218715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cf8276cc841614dbd4252255b7a7c8
+      internalID: 1881526759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8e621f72a54af48883a0a5bfdecd53
+      internalID: 1114527638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9395e65f6d5818c4f8b9ad0473ae0985
+      internalID: -756322253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_88
+      rect:
+        serializedVersion: 2
         x: 491
         y: 473
         width: 10
@@ -1998,8 +1998,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c246bc6f18e7324e84cbf8c57c7adfc
-      internalID: -401218715
+      spriteID: 294c6f3858354e94b86024a39eae26f0
+      internalID: 372049377
       vertices: []
       indices: 
       edges: []
@@ -2102,11 +2102,8 @@ TextureImporter:
       Goblin King Sprite Sheet_85: -1838514876
       Goblin King Sprite Sheet_86: -740284383
       Goblin King Sprite Sheet_87: -1918000484
-      Goblin King Sprite Sheet_88: 1144611957
-      Goblin King Sprite Sheet_89: -1710403528
+      Goblin King Sprite Sheet_88: 372049377
       Goblin King Sprite Sheet_9: 1273377473
-      Goblin King Sprite Sheet_90: -768440334
-      Goblin King Sprite Sheet_91: -1104795340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

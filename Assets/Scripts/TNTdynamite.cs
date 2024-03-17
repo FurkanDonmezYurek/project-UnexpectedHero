@@ -26,7 +26,7 @@ public class TNTdynamite : MonoBehaviour
         }
         //Enemy attack function
         if (
-            other.gameObject.layer == 7
+            other.gameObject.layer == 8
             && other.gameObject.TryGetComponent(out Player healthPlayer)
         )
         {

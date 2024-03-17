@@ -115,7 +115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8003588963487803520}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 7163699716353786448}
   - component: {fileID: 4397888774331819109}
   - component: {fileID: 4356091447191941323}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Enemy_TNT
   m_TagString: Enemy
   m_Icon: {fileID: 0}

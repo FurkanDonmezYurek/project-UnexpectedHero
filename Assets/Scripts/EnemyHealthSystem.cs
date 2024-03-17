@@ -60,14 +60,13 @@ public class EnemyHealthSystem : MonoBehaviour
     //Belirlenen sürede objeyi yok etme
     IEnumerator DestroyEnemy(float seconds)
     {
-        Enemy.GetComponent<Animator>().SetBool("IsDead", true);
+        Enemy.GetComponent<Animator>().SetTrigger("IsDead");
         deadStarted = false;
         yield return new WaitForSeconds(seconds);
         if (this.gameObject.tag == "Boss")
         {
             gameOverScreen.SetActive(true);
             inGameScreen.SetActive(false);
-            Time.timeScale = 0;
         }
         else
         {

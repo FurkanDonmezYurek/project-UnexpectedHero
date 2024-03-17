@@ -44,7 +44,7 @@ public class AttackSystem : MonoBehaviour
         animatorEnemy = Enemy.GetComponent<Animator>();
         //Enemy damge-push-animation trigger function
         if (
-            LayerMask.LayerToName(other.gameObject.layer) == "Enemy"
+            (LayerMask.LayerToName(other.gameObject.layer) == "Enemy" || LayerMask.LayerToName(other.gameObject.layer) == "Minions")
             && other.gameObject.TryGetComponent(out EnemyHealthSystem healthEnemy)
         )
         {
@@ -53,7 +53,6 @@ public class AttackSystem : MonoBehaviour
                 if (healthEnemy.health > 0)
                 {
                     healthEnemy.health--;
-                    healthEnemy.EnemyPush();
                     animatorEnemy.SetTrigger("TakeDamage");
                 }
             }

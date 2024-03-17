@@ -71,6 +71,7 @@ public class Player : MonoBehaviour
         //Dead
         if(currentHealth <= 0){
             animator.SetBool("IsDead",true);
+            canDash = false;
             Invoke("GameOver",2f);
         }
 
@@ -130,7 +131,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator Dash(){
         int originalLayer = this.gameObject.layer;
-        this.gameObject.layer = 8;
+        this.gameObject.layer = 9;
         float originalSpeed = speed;
         speed =0;
         canDamage =false;

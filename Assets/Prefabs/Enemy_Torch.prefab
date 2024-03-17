@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 635252381715374618}
   - component: {fileID: 1141384817082637047}
   - component: {fileID: 1159556106345594696}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 8892731817354649946}
   - component: {fileID: 4783420135563083014}
   - component: {fileID: 3948358473216586414}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Enemy_Torch
   m_TagString: Enemy
   m_Icon: {fileID: 0}
