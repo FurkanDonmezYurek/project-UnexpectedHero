@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+   
+
     Class_ControlObject ctrlObj;
     Rigidbody2D rb;
     public float speed;
@@ -33,8 +35,17 @@ public class Player : MonoBehaviour
     public float dashingCooldown;
     private TrailRenderer tr;
 
+
+    [SerializeField] public AudioSource jumpsoundeffect;
+
     void Start()
     {
+
+
+
+
+
+
         animator = this.gameObject.GetComponent<Animator>();
         ctrlObj = this.gameObject.GetComponent<Class_ControlObject>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();

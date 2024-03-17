@@ -73,7 +73,7 @@ public class Boss : MonoBehaviour
             turnBoss = player.transform.position.x - this.gameObject.transform.position.x;
             if (turnBoss > 0)
             {
-                this.gameObject.transform.rotation = Quaternion.Euler(0f, 0, 0f);
+            this.gameObject.transform.rotation = Quaternion.Euler(0f, 0, 0f);
             }
             else
             {
@@ -87,7 +87,8 @@ public class Boss : MonoBehaviour
         if(attack0Started && Physics2D.OverlapCircle(groundCheck.position, 0.15f, layerMask)){
             animator.SetTrigger("IsGrounded");
             CinemachineShake.Instance.ShakeCamera(10f, 0.7f);
-            
+           
+
             attack0Started =false;
             isWait =true;
         }
@@ -100,22 +101,25 @@ public class Boss : MonoBehaviour
         //Switch Stage
         if (enemyHealthSystem.health < stageSwitch)
         {
+            FindObjectOfType<AudioManager>().Play("bosseating");
             animator.SetTrigger("StageSwitch");
             stageCounter = 2;
         }
         //Waiting for next Attack
         if (isWait)
         {
+           
             switch (stageCounter)
             {
                 case 1:
+
                     AttackTime = Random.Range(attackWaitRange.x, attackWaitRange.y);
                     break;
                 case 2:
                     AttackTime = Random.Range(attackWaitRange.x / 1.5f, attackWaitRange.y / 1.5f);
                     break;
             }
-
+            
             AttackTime += Time.time;
             isWait = false;
 
@@ -124,7 +128,7 @@ public class Boss : MonoBehaviour
             
         }
         switch (stageCounter)
-        {
+        { 
             //for Stage 1
             case 1:
                 if (animator.GetBool("Idle"))
@@ -132,6 +136,7 @@ public class Boss : MonoBehaviour
                     animator.ResetTrigger("IsGrounded");
                     if (Time.time > AttackTime)
                     {
+                        
                         animator.ResetTrigger("TakeDamage");
                         animator.SetTrigger("Attack0");
                         animator.SetBool("Idle", false);
@@ -145,6 +150,7 @@ public class Boss : MonoBehaviour
                     animator.ResetTrigger("IsGrounded");
                     if (Time.time > AttackTime)
                     {
+                        
                         switch (stage2Attack)
                         {
                             case 0:
@@ -158,6 +164,7 @@ public class Boss : MonoBehaviour
                                 CinemachineShake.Instance.ShakeCamera(5f, 0.7f);
                                 break;
                             case 3:
+                                FindObjectOfType<AudioManager>().Play("bosseating");
                                 animator.SetTrigger("Heal");
                                 break;
                         }
@@ -173,12 +180,18 @@ public class Boss : MonoBehaviour
 
         //Boss Attack1
         if (animator.GetBool("Attack1"))
-        {if(animator.GetCurrentAnimatorStateInfo(0).IsName("King_RangeAttack")){
+        {
+          
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("King_RangeAttack")){
             if (attack1IsGoing)
             {
-                if (GameObject.FindGameObjectWithTag("Enemy") == null)
+                    FindObjectOfType<AudioManager>().Play("bossthrow");
+
+                    if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
-                    animator.SetBool("Attack1", false);
+                        
+                        
+                        animator.SetBool("Attack1", false);
                     animator.SetBool("Idle", true);
                     attack1IsGoing = false;
 
@@ -188,9 +201,12 @@ public class Boss : MonoBehaviour
             }
             else
             {
-                if (ballCountPriv > ballCount)
-                {
-                    animator.SetBool("Attack1", false);
+                    
+                    if (ballCountPriv > ballCount)
+                    {
+                        
+                        FindObjectOfType<AudioManager>().Play("bossjump");
+                        animator.SetBool("Attack1", false);
                     animator.SetBool("Idle", true);
                     isWait = true;
                     ballCountPriv = 0;
@@ -198,21 +214,26 @@ public class Boss : MonoBehaviour
             }
 
             if (fireWait < Time.time)
-            {
-                cosFire = player.transform.position.x - firePoint.position.x;
+                {
+                    FindObjectOfType<AudioManager>().Play("bossthrow");
+
+                    cosFire = player.transform.position.x - firePoint.position.x;
                 sinFire = player.transform.position.y + 15f;
                 Vector2 fireForce = new Vector2(cosFire / 2.5f, sinFire);
                 var ball = Instantiate(ballPrefb, firePoint.position, firePoint.rotation);
                 ball.GetComponent<Rigidbody2D>().AddForce(fireForce, ForceMode2D.Impulse);
                 fireWait += fireWaitRadius;
                 ballCountPriv++;
+                   
             }
         }}
         //Boss Attack2
         if (animator.GetBool("Attack2"))
         {
+            
             if (i < maxEnemy)
             {
+                FindObjectOfType<AudioManager>().Play("ordu");
                 posX = Random.Range(spawnPoint.x - spawnRadius, spawnPoint.x + spawnRadius);
                 GameObject enemyClone = Instantiate(
                     enemy,
@@ -248,9 +269,11 @@ public class Boss : MonoBehaviour
     
     }
     public IEnumerator JumpAttack(){
+        FindObjectOfType<AudioManager>().Play("bossjump"); 
         rb.AddForce(Vector3.up * 250f, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.5f);
         attack0Started = true;
+        FindObjectOfType<AudioManager>().Play("bosslanding");
         gameObject.layer = 9;
         rb.velocity = Vector3.zero;
         transform.position = new Vector2(player.transform.position.x,transform.position.y);

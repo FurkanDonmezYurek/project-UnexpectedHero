@@ -22,6 +22,8 @@ public class AttackSystem : MonoBehaviour
         //Attack and combo -----Input.GetMouseButtonDown(0) ||
         if (Input.GetMouseButtonDown(0) ||Input.GetKeyDown(KeyCode.K))
         {
+
+            FindObjectOfType<AudioManager>().Play("sword");
             if (animator.GetBool("Jump") == false)
             {
                 switch (comboCount)
