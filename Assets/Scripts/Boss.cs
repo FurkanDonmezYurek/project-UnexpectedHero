@@ -262,7 +262,7 @@ public class Boss : MonoBehaviour
     }
     
     public void Food(){
-        enemyHealthSystem.health += 10;
+        enemyHealthSystem.health += 5;
         UpdateLifeBar();
         animator.SetBool("Idle",true);
         isWait = true;

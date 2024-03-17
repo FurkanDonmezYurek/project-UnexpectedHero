@@ -27,4 +27,10 @@ public class ManuManager : MonoBehaviour
         SceneManager.LoadScene(scene.name);
     }
 
+    private void Update() {
+        if(Input.GetKeyDown(KeyCode.P)){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
 }
