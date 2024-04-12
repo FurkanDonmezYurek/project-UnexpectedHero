@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-   
-
     Class_ControlObject ctrlObj;
     Rigidbody2D rb;
     public float speed;
@@ -35,17 +33,11 @@ public class Player : MonoBehaviour
     public float dashingCooldown;
     private TrailRenderer tr;
 
-
-    [SerializeField] public AudioSource jumpsoundeffect;
+    [SerializeField]
+    public AudioSource jumpsoundeffect;
 
     void Start()
     {
-
-
-
-
-
-
         animator = this.gameObject.GetComponent<Animator>();
         ctrlObj = this.gameObject.GetComponent<Class_ControlObject>();
         rb = this.gameObject.GetComponent<Rigidbody2D>();
@@ -60,13 +52,16 @@ public class Player : MonoBehaviour
     void Update()
     {
         //life bugfix
-        if(currentHealth >maxHealth){
+        if (currentHealth > maxHealth)
+        {
             currentHealth = maxHealth;
         }
-        if(isDashing){
+        if (isDashing)
+        {
             return;
         }
-        if(Input.GetKeyDown(KeyCode.LeftShift)&&canDash&&canDamage){
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && canDamage)
+        {
             StartCoroutine(Dash());
         }
         if (canDamage == false)
@@ -80,10 +75,11 @@ public class Player : MonoBehaviour
         }
         UpdateLifeBar();
         //Dead
-        if(currentHealth <= 0){
-            animator.SetBool("IsDead",true);
+        if (currentHealth <= 0)
+        {
+            animator.SetBool("IsDead", true);
             canDash = false;
-            Invoke("GameOver",2f);
+            Invoke("GameOver", 2f);
         }
 
         ctrlObj.DoubleJump(jump, jumpCount);
@@ -100,16 +96,16 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(isDashing){
+        if (isDashing)
+        {
             return;
         }
         animator.SetFloat("Speed", Mathf.Abs(moveInput));
-       if(animator.GetBool("IsDead")==false)
-       {
+        if (animator.GetBool("IsDead") == false)
+        {
             moveInput = Input.GetAxisRaw("Horizontal");
             ctrlObj.HorizontalControls(speed);
         }
-        
     }
 
     //hasar alınca canı azalması ve animasyon aktivasyonu
@@ -124,10 +120,13 @@ public class Player : MonoBehaviour
             canDamage = false;
         }
     }
-    void ReloadScene(){
+
+    void ReloadScene()
+    {
         Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
+        SceneManager.LoadScene(scene.name);
     }
+
     //Reset Forces
     public void ResetAllForces()
     {
@@ -140,12 +139,13 @@ public class Player : MonoBehaviour
         healthSlider.value = currentHealth / maxHealth;
     }
 
-    private IEnumerator Dash(){
+    private IEnumerator Dash()
+    {
         int originalLayer = this.gameObject.layer;
         this.gameObject.layer = 9;
         float originalSpeed = speed;
-        speed =0;
-        canDamage =false;
+        speed = 0;
+        canDamage = false;
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
@@ -153,7 +153,7 @@ public class Player : MonoBehaviour
         ctrlObj.Dash(dashingPower);
         tr.emitting = true;
         yield return new WaitForSeconds(dashingTime);
-        this.gameObject.layer =originalLayer;
+        this.gameObject.layer = originalLayer;
         ResetAllForces();
         speed = originalSpeed;
         canDamage = true;
@@ -163,7 +163,9 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-    void GameOver(){
+
+    void GameOver()
+    {
         gameOverScreen.SetActive(true);
     }
 }

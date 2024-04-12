@@ -10,9 +10,6 @@ public class Class_ControlObject : MonoBehaviour
     float jumpCountEx;
     public AudioSource audioSource;
 
-
-   
-
     void Start()
     {
         thisObj = this.gameObject;
@@ -23,7 +20,7 @@ public class Class_ControlObject : MonoBehaviour
 
     //Yatay Düzlemde Hareket Unity Axes-Horizantal
     public void HorizontalControls(float speed)
-    {   
+    {
         velocity = new Vector3(Input.GetAxis("Horizontal"), 0f);
         transform.position += velocity * speed * Time.deltaTime;
         if (Input.GetAxisRaw("Horizontal") == -1)
@@ -31,10 +28,9 @@ public class Class_ControlObject : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("Walk");
 
             transform.rotation = Quaternion.Euler(0f, 180, 0f);
-        }    
+        }
         else if (Input.GetAxisRaw("Horizontal") == 1)
         {
-
             FindObjectOfType<AudioManager>().Play("Walk");
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
@@ -75,18 +71,15 @@ public class Class_ControlObject : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && Mathf.Approximately(rb.velocity.y, 0f))
         {
-
             rb.AddForce(Vector3.up * jump, ForceMode2D.Impulse);
             jumped = true;
         }
-       
+
         if (Mathf.Approximately(rb.velocity.y, 0f))
         {
             jumped = false;
         }
-        
     }
-    
 
     public void DoubleJump(float jump, float jumpCount)
     {
@@ -133,8 +126,9 @@ public class Class_ControlObject : MonoBehaviour
     }
 
     //Dash
-    public void Dash(float dashPower){
+    public void Dash(float dashPower)
+    {
         FindObjectOfType<AudioManager>().Play("dash");
-        rb.velocity = new Vector2( Input.GetAxis("Horizontal")*dashPower,0f);
+        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * dashPower, 0f);
     }
 }
